@@ -64,5 +64,18 @@ https://wiki.qt.io/Install_Qt_5_on_Ubuntu
 >cmake-gui
 
 4. 
-![alt-text](https://raw.githubusercontent.com/parthasgouda/How-to-install-opencv-on-linux-18.04/master/Screenshot%20from%202019-04-05%2014-36-47.png)
+![cmake configuring](https://raw.githubusercontent.com/parthasgouda/How-to-install-opencv-on-linux-18.04/master/Screenshot%20from%202019-04-05%2014-36-47.png)
 
+5. Click configure
+
+6. Click finish
+
+![setting up compiler](https://raw.githubusercontent.com/parthasgouda/How-to-install-opencv-on-linux-18.04/master/Screenshot%20from%202019-04-05%2014-55-01.png)
+
+7. 
+
+![To configure compiler](https://raw.githubusercontent.com/parthasgouda/How-to-install-opencv-on-linux-18.04/master/Screenshot%20from%202019-04-05%2015-01-18.png)
+
+8. Add opencv-contrib folder to the cmake
+
+![add contrib folder](https://raw.githubusercontent.com/parthasgouda/How-to-install-opencv-on-linux-18.04/master/Screenshot%20from%202019-04-05%2015-08-26.png)

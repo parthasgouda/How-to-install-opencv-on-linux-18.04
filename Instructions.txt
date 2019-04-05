@@ -10,5 +10,8 @@ Installing CMAKE and CMAKE GUI:
 2. Extract the contents of the file that was downloaded into a folder
 3. Open terminal in the folder where the .tar.gz or .tar.Z was extracted to.
 4. use the following commands: 
-
-        **./bootstrap --qt-gui**
+        ./bootstrap --qt-gui
+        make -j4 
+        make install 
+5.  ## hello
+        

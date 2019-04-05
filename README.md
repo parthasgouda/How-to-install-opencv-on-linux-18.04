@@ -64,6 +64,5 @@ https://wiki.qt.io/Install_Qt_5_on_Ubuntu
 >cmake-gui
 
 4. 
-![alt-text]
-(https://raw.githubusercontent.com/parthasgouda/How-to-install-opencv-on-linux-18.04/master/Screenshot%20from%202019-04-05%2014-36-47.png)
+![alt-text](https://raw.githubusercontent.com/parthasgouda/How-to-install-opencv-on-linux-18.04/master/Screenshot%20from%202019-04-05%2014-36-47.png)
 

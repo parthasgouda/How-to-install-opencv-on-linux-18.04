@@ -98,7 +98,13 @@ or
 *Depending on the output for*
 >nproc
 
-Then install opencv using:
+12. Then install opencv using:
 
->make install 
+>sudo make install 
+
+13. Then add the opencv configuration to the ubuntu ldconfig using:
+
+>sudo sh -c 'echo "/usr/local/lib" >> /etc/ld.so.conf.d/opencv.conf'
+
+>sudo ldconfig
 

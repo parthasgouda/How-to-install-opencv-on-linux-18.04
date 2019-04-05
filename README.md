@@ -79,3 +79,26 @@ https://wiki.qt.io/Install_Qt_5_on_Ubuntu
 8. Add opencv-contrib folder to the cmake
 
 ![add contrib folder](https://raw.githubusercontent.com/parthasgouda/How-to-install-opencv-on-linux-18.04/master/Screenshot%20from%202019-04-05%2015-08-26.png)
+
+9. Configure for opencv-contrib
+
+![configure for opencv-contrib](https://raw.githubusercontent.com/parthasgouda/How-to-install-opencv-on-linux-18.04/master/Screenshot%20from%202019-04-05%2015-17-03.png)
+
+10. click configure and then generate.
+
+11. After the make file has been generate. Use the following commands in the terminal with build folder(which was created in step 2) as working directory.
+
+
+>make -j4
+
+or
+
+>make -j8
+
+*Depending on the output for*
+>nproc
+
+Then install opencv using:
+
+>make install 
+

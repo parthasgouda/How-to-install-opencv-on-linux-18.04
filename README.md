@@ -28,9 +28,14 @@ Then, *cmake* can be *optionally* installed using the following command:
 >make install 
         
 #### Possible errors
-One the possible errors from the above commands could be due to the absense of qt on the system. The following link can be followed to install qt 
+1. One the possible errors from the above commands could be due to the absense of qt on the system. The following link can be followed to install qt
+>sudo apt install qtbase5-dev
+
+or
 
 https://wiki.qt.io/Install_Qt_5_on_Ubuntu
+
+2. When using tensorflow c-api with opencv, there is a possible "Protobuf error". This arises due to the 
 
 ### Installing Opencv and Opencv-contrib
 
@@ -38,7 +43,7 @@ https://wiki.qt.io/Install_Qt_5_on_Ubuntu
 
 >sudo apt-get install build-essential
 
->sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+>sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev
 
 >sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 
